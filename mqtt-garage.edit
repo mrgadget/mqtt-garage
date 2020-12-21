@@ -1,0 +1,14 @@
+[Unit]
+Description=systemd wrapper for mqtt-garage node.js script
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/local/bin/npm run start --prefix /home/pi/node/mqtt-garage
+Restart=always
+RestartSec=60
+StartLimitInterval=300
+StartLimitBurst=3
+
+[Install]
+WantedBy=multi-user.target

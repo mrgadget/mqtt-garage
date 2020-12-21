@@ -1,0 +1,30 @@
+{
+  "mqtt": {
+    "host": "mqtt.hostname.or.ip.here",
+    "topicBase": "garage",
+    "user": "mqtt-user",
+    "password": "MqTtPasSw0rd"
+  },
+  "doors": [
+    {
+      "channel": 1,
+      "name": "door1",
+      "input": 1,
+      "output": 13,
+      "invert": true,
+      "closed": 45,
+      "open": 3265,
+      "openStop": 59
+    },
+    {
+      "channel": 2,
+      "name": "door2",
+      "input": 0,
+      "output": 15,
+      "invert": false,
+      "closed": 590,
+      "open": 2950,
+      "openStop": 80
+    }
+  ]
+}

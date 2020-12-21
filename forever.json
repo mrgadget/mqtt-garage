@@ -1,0 +1,10 @@
+{
+    "uid": "mqtt-garage",
+    "append": true,
+    "command": "node",
+    "script": "app.js",
+    "sourceDir": "/home/pi/node/mqtt-garage",
+    "logFile": "/home/pi/node/mqtt-garage/logs/forever.log",
+    "outFile": "/home/pi/node/mqtt-garage/logs/stdout.log",
+    "errFile": "/home/pi/node/mqtt-garage/logs/stderr.log"
+}

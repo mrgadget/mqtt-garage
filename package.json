@@ -1,0 +1,19 @@
+{
+  "name": "garage-door",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "preinstall":"cd $(pwd)",
+    "test": "node ./app.js",
+    "start": "node ./app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^2.18.8",
+    "node-ads1x15": "^1.0.3",
+    "rpi-gpio": "^1.0.0",
+    "winston": "^3.1.0"
+  }
+}
